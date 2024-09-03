@@ -1,0 +1,601 @@
+.card-container {
+    max-height: 400px; /* Set the height of the container */
+    overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+.card-formte {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    padding: 15px;
+    background-color: #fff; /* Optional: Background color */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow */
+    margin-top: 2%;
+    margin-left: 15px;
+    border: 1px solid #ddd;
+}
+
+.first-card {
+    display: flex;
+    align-items: center;
+    // flex: 1; /* Make sure each card takes equal space */
+    justify-content: center; /* Center items within each card */
+    padding: 5px;
+    margin: 0 10px; /* Space between cards */
+    text-align: center;
+    border-radius: 4px; /* Optional: Rounded corners */
+}
+
+.first-card i {
+    font-size: 24px; /* Adjust icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.first-card span {
+    display: block;
+    font-size: 14px; /* Adjust text size */
+    color: #333; /* Optional: Text color */
+}
+
+
+.about-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.about-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-card-icon {
+    font-size: 24px;
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.about-card-text {
+    font-size: 14px;
+}
+
+
+.skill-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.skill-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.skill-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-card-icon {
+    font-size: 24px;
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.skill-card-text {
+    font-size: 14px;
+}
+
+
+.tags-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.tags-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tags-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tags-card-icon {
+    font-size: 24px;
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.tags-card-text {
+    font-size: 14px;
+}
+
+.form-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.form-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.form-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.form-card-left,
+.form-card-right {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.work-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.work-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.work-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.work-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.work-card-left,
+.work-card-right {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.Hierarchy-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Hierarchy-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Hierarchy-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.Hierarchy-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.Hierarchy-card-left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.personal-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.personal-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.personal-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.personal-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.personal-card-left,
+.personal-card-right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.Identity-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Identity-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Identity-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.Identity-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.Identity-card-left,
+.personal-card-right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.Contact-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Contact-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Contact-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.Contact-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.Contact-card-left,
+.Contact-card-right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Separation-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Separation-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Separation-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.Separation-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.Separation-card-left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.System-card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.System-card-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.System-card-form {
+    margin-top: 40px; /* Space for the title */
+}
+
+.System-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.System-card-left,
+.System-card-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.Work-card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adds spacing above the card */
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Work-card-title {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Work-card-form {
+    margin-top: 10px;
+}
+
+.Work-card-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Work-card-table th,
+.Work-card-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.Work-card-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.no-rows {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    padding: 10px;
+}
+
+
+.Education-card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adds spacing above the card */
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Education-card-title {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Education-card-form {
+    margin-top: 10px;
+}
+
+.Education-card-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Education-card-table th,
+.Education-card-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.Education-card-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+
+
+
+.Dependent-card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adds spacing above the card */
+    margin-left: 15px;
+    margin-top: 2%;
+}
+
+.Dependent-card-title {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Dependent-card-form {
+    margin-top: 10px;
+}
+
+.Dependent-card-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Dependent-card-table th,
+.Dependent-card-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.Dependent-card-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+
